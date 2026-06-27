@@ -1,6 +1,6 @@
 class Car:
     def __init__(self,brand,model):
-        self.__brand= brand #private
+        self.__brand= brand #private (class kai andr hi access milega)
         self.__model = model
         
     def get_brand(self):

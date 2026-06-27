@@ -32,7 +32,7 @@ class ElectricCar(Car):
     
 my_tesla = ElectricCar("Tesla","Model S" , "85kWh")  
 
-print(isinstance(my_tesla , Car))
+print(isinstance(my_tesla , Car)) # to check instance
 print(isinstance(my_tesla ,ElectricCar)) 
 # print(my_tesla.fuel_type())
     
